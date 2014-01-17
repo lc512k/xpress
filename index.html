@@ -4,21 +4,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Foundation | Welcome</title>
+  <title>Welcome</title>
   <link rel="stylesheet" href="css/foundation.css" />
   <script src="js/modernizr.js"></script>
+
+  <style type="text/css">
+  .title {
+    margin-bottom: 1em;
+  }
+  </style>
 </head>
 
 <body>
 
   <div class="row">
     <div class="small-12 columns">
-      <h2 class="text-center">Title</h2>
-      <a href="#" class="button">Login</a>
+      <h1 class="title text-center">Welcome</h1>
+      <label>Login</label>
+      <input type="text" placeholder="bsmith1" />
+      <label>Password</label>
+      <input type="password" placeholder="*****" />
+      <div class=" text-center"><a href="#" class="button">Login</a>
+      </div>
     </div>
   </div>
 
   <script src="js/jquery.js"></script>
+  <script src="js/require.min.js"></script>
   <script src="js/foundation.min.js"></script>
   <script src="js/backbone.min.js"></script>
   <script>
